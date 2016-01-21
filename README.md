@@ -12,6 +12,6 @@ Requirements
 
 Quick start
 -----------
-1. 'bower install'
+1. `bower install`
 2. `mvn jetty:run`
 3. Point your browser to [http://localhost:8080/](http://localhost:8080/)
