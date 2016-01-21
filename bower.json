@@ -1,0 +1,25 @@
+{
+  "name": "devarchi33-webapp-seed",
+  "homepage": "https://github.com/skyfly33/devarchi33-webapp-seed",
+  "authors": [
+    "devarchi33@gmail.com"
+  ],
+  "description": "devarchi33 spring mvc webapp seed project.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "devarchi33-webapp-seed"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/main/webapp/resources/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "adminlte#~2.3.2"
+  }
+}

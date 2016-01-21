@@ -1,3 +1,13 @@
-.idea
-target
+/.settings
+/.classpath
+/.project
+*.log
+*.epoch
+*.lck
+.idea/
 *.iml
+bower_components/
+node_modules/
+target/
+simple-spring-mybatis.ipr
+simple-spring-mybatis.iws

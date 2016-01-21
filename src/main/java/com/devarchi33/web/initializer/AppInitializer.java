@@ -1,4 +1,8 @@
-package eu.kielczewski.example.initializer;
+package com.devarchi33.web.initializer;
+
+/**
+ * Created by donghoon on 2016. 1. 22..
+ */
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
@@ -12,8 +16,8 @@ import javax.servlet.ServletRegistration;
 
 public class AppInitializer implements WebApplicationInitializer {
 
-    private static final String CONFIG_LOCATION = "eu.kielczewski.example.config";
-    private static final String MAPPING_URL = "/*";
+    private static final String CONFIG_LOCATION = "com.devarchi33.web.config";
+    private static final String MAPPING_URL = "/";
 
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
