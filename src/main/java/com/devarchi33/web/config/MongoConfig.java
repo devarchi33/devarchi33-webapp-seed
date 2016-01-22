@@ -17,7 +17,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
  */
 @Configuration
 @EnableMongoRepositories
-@PropertySource(value = "devarchi33.properties")
+@PropertySource(value = "classpath:devarchi33.properties")
 public class MongoConfig extends AbstractMongoConfiguration {
 
     @Autowired
