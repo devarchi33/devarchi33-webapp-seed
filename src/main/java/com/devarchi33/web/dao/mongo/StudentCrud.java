@@ -1,6 +1,6 @@
-package com.devarchi33.web.dao.crud;
+package com.devarchi33.web.dao.mongo;
 
-import com.devarchi33.web.dao.StudentRepository;
+import com.devarchi33.web.dao.StudentDao;
 import com.devarchi33.web.domain.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
  */
 @Document(collection = "students")
 @Repository
-public class StudentCrud implements StudentRepository {
+public class StudentCrud implements StudentDao {
 
     @Autowired
     private MongoTemplate mongoTemplate;

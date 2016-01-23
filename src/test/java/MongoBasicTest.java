@@ -1,5 +1,5 @@
 import com.devarchi33.web.config.MongoConfig;
-import com.devarchi33.web.dao.crud.StudentCrud;
+import com.devarchi33.web.dao.mongo.StudentCrud;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
