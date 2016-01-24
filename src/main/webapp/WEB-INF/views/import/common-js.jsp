@@ -6,6 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ include file="/WEB-INF/views/import/common-tag.jsp" %>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-<script src="/resources/js/index.js"></script>
+<script src="<c:url value="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"/>"></script>
+<script src="<c:url value="//developers.kakao.com/sdk/js/kakao.min.js"/>"></script>
+<script src="<c:url value="/resources/js/loginForm/index.js"/>"></script>
