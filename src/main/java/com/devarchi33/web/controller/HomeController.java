@@ -24,7 +24,7 @@ class HomeController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String webHome() {
         logger.debug("Home Page.");
-        return "home";
+        return "index";
     }
 
     @RequestMapping(value = "isMember", method = RequestMethod.POST, produces = "plain/text; charset=utf8")
