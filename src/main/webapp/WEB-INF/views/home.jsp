@@ -70,6 +70,5 @@
 <a id="codepen" href="https://github.com/skyfly33" title="Follow me!"><i class="fa fa-github"></i></a>
 <!-- dependencies -->
 <jsp:include page="import/common-js.jsp"/>
-<script src="/resources/js/kakao/kakaoJskey.js"></script>
 </body>
 </html>

@@ -9,3 +9,4 @@
 <script src="<c:url value="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"/>"></script>
 <script src="<c:url value="//developers.kakao.com/sdk/js/kakao.min.js"/>"></script>
 <script src="<c:url value="/resources/js/loginForm/index.js"/>"></script>
+<script src="<c:url value="/resources/js/kakao/kakaoJskey.js"/>"></script>

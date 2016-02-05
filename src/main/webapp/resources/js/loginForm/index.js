@@ -46,6 +46,7 @@ $(document).ready(function () {
                         if (response === "EXISTUSER") {
                             alert("이미 가입한 회원 입니다. 로그인 하시겠습니까?");
                             //페이지 이동 로직 추가하기.
+
                             //가입되어 있지 않은 회원의 회원가입 로직.
                         } else if (response === "NOTEXISTUSER") {
                             var signIn = confirm("아직 회원이 아닙니다. kakao로 회원가입 하시겠습니까?");
@@ -64,8 +65,9 @@ $(document).ready(function () {
                                         alert(response + "님의 회원가입이 완료 되었습니다.");
                                         //page 이동 로직 추가하기.
                                     },
-                                    fail: function () {
+                                    fail: function (error) {
                                         alert("회원가입에 문제가 발생 하였습니다...");
+                                        console.log(JSON.stringify(error));
                                     }
                                 });
                             } else {
@@ -74,12 +76,12 @@ $(document).ready(function () {
                         }
                     },
                     error: function (error) {
-                        alert("Server Error!" + JSON.stringify(error));
+                        alert("Server Error! : " + JSON.stringify(error));
                     }
                 });
             },
             fail: function (error) {
-                alert("kakao getUserInfo error: " + JSON.stringify(error));
+                alert("Kakao getUserInfo Error! : " + JSON.stringify(error));
             }
         });
     }
